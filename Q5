@@ -1,0 +1,16 @@
+Contagem de Caracteres em uma String: Crie um programa que leia uma string e conte quantos caracteres (incluindo espaços) ela possui.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char texto[50];
+    int t;
+    printf("Digite uma palavra ou frase: ");
+    fgets(texto, 50, stdin);
+    t = strlen(texto);
+    t = t-1;
+    
+    printf("Sua string possui %d caracteres incluindo os espaços.", t);
+    return 0;
+}
