@@ -29,7 +29,7 @@ int main() {
         printf("Temperatura em Celsius após conversão: %.2f\n", FtoC(temp));
     }
     else {
-        printf("Não existe opção para o número digitado");
+        printf("Não existe opção para o número digitado.");
     }
     return 0;
 }
