@@ -1,2 +1,1 @@
-# Atividade-LP1
-Respostas da atividade termômetro de LP1 
+Para rodar os códigos, é necessário um compilador de C. Nesse caso, o OnlineGDB ou o Programiz são opções, basta copiar o código, colar em um dos sites e apertar em Run. Siga as instruções caso o código exija, como por exemplo digitar algum número para que ele retorne um resultado.
