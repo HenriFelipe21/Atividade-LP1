@@ -8,8 +8,8 @@ int main() {
     int t;
     printf("Digite uma palavra ou frase: ");
     fgets(texto, 50, stdin);
-    t = strlen(texto);
-    t = t-1;
+    t=strlen(texto);
+    t=t-1;
     
     printf("Sua string possui %d caracteres incluindo os espaços.", t);
     return 0;
